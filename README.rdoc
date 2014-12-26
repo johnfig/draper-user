@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This will be a sample project on how to decorate a user with Draper
 
 Things you may want to cover:
 
-* Ruby version
+* I will create a UserDecorator
 
-* System dependencies
+* I will store various view level helper methods on the User object
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* This helps abstract code from view helpers which are globally accessible

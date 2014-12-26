@@ -16,10 +16,10 @@
   <tbody>
     <% @users.each do |user| %>
       <tr>
-        <td><%= user.first_name %></td>
-        <td><%= user.age %></td>
-        <td><%= user.birthday %></td>
-        <td><%= user.salary %></td>
+        <td><%= user.full_name %></td>
+        <td><%= user.object.age %></td>
+        <td><%= user.formatted_birthday %></td>
+        <td><%= user.object.salary %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
